@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="RainbowDrumView">
+        <attr name="centerX" format="dimension" />
+        <attr name="centerY" format="dimension" />
+        <attr name="radius" format="dimension" />
+    </declare-styleable>
+
+</resources>

@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Aston</string>
+    <string name="bt_spin">Spin</string>
+    <string name="bt_reset">Reset</string>
 </resources>

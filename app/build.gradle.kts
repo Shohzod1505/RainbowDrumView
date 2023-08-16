@@ -3,6 +3,7 @@ plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.kotlinAndroid)
     alias(libs.plugins.detektApplication)
+    alias(libs.plugins.kapt)
 }
 
 android {
@@ -48,6 +49,7 @@ dependencies {
     implementation(libs.constraintlayout)
 
     implementation(libs.viewbindingdelegate)
+    implementation(libs.glide)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.test.ext.junit)

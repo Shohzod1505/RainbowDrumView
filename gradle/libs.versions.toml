@@ -10,6 +10,8 @@ androidx-test-ext-junit = "1.1.5"
 espresso-core = "3.5.1"
 detekt = "1.23.1"
 viewbindingdelegate = "1.5.9"
+glide = "4.14.2"
+kapt = "1.9.0"
 
 [libraries]
 core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
@@ -20,8 +22,11 @@ junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-test-ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidx-test-ext-junit" }
 espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espresso-core" }
 viewbindingdelegate = { group = "com.github.kirich1409", name = "viewbindingpropertydelegate-noreflection", version.ref = "viewbindingdelegate"}
+glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glide"}
+glide_compiler = { group = "'com.github.bumptech.glide", name = "compiler", version.ref = "glide"}
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
 kotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 detektApplication = { id = "io.gitlab.arturbosch.detekt", version.ref = "detekt" }
+kapt = { id = "org.jetbrains.kotlin.kapt", version.ref = "kapt" }
